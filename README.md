@@ -1,15 +1,20 @@
-# Logic Checker
-A simple Python tool that evaluates the logical consistency of statements. 
-Useful for AI evaluation, reasoning analysis, and micro‑task workflows.
+# 🧠 Logic Checker  
+A lightweight Python tool for evaluating reasoning consistency and detecting contradictions in structured responses.
 
-## Features
-- Detects contradictions in text
-- Provides structured feedback
-- Lightweight and easy to extend
+## ✨ Features
+- Consistency scoring  
+- Contradiction detection  
+- Structured output format  
+- Easy integration with micro‑task workflows  
 
-## Example
-Input: "I always follow the rules except on weekends."
-Output: "Inconsistent: 'always' contradicts 'except'."
+## 🚀 Use Case
+Designed for AI evaluation, RLHF tasks, and logic‑based micro‑tasks where response quality matters.
 
-## License
-MIT License
+## 📦 Installation
+pip install -r requirements.txt
+
+## ▶️ Usage
+python logic_checker.py "Your text here"
+
+## 📄 License
+MIT
